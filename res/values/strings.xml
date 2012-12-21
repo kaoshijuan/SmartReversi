@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SmartReversi!</string>
+    <string name="app_name">SmartReversi</string>
+    <string name="exit_title">Exit</string>
+    <string name="exit_prompt">Are you sure to exit?</string>
+    <string name="exit_yes">OK</string>
+    <string name="exit_no">Cancel</string>
+    <string name="button_new_game">New Game</string>
+    <string name="button_buy">Buy Full Version</string>
+    <string name="button_help">Help</string>
+    <string name="button_exit">Exit</string>
+    <string name="buy_url">market://search?q=pname:net.kaoshijuan.SmartReversi</string>
+    <string name="help_url">http://www.kaoshijuan.net/game/smartreversi/index_en.html</string>
+ 	<string name="black_name">Black</string>
+ 	<string name="white_name">White</string>
+ 	<string name="your_turn">It is your turn now... </string>
+ 	<string name="computer_turn">Android is thinking...</string>
+ 	<string name="computer_passed">Android is passed, it is your turn now...</string>
+ 	<string name="you_passed">You are passed, Android is thinking now...</string>
+ 	<string name="you_win">You won...</string>
+ 	<string name="computer_win">Android won...</string>
+ 	<string name="draw">It is a Draw...</string>
+ 	<string name="buy_prom">Waiting for release...</string>
+</resources>

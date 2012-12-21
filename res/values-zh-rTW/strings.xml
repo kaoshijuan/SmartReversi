@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SmartReversi!</string>
+    <string name="app_name">聰明黑白棋</string>
+    <string name="exit_title">退出</string>
+    <string name="exit_prompt">您確認退出嗎？</string>
+    <string name="exit_yes">是</string>
+    <string name="exit_no">否</string>
+    <string name="button_new_game">新對局</string>
+    <string name="button_buy">購買高級版本</string>
+    <string name="button_help">幫助</string>
+    <string name="button_exit">退出</string>
+    <string name="buy_url">market://search?q=pname:net.kaoshijuan.SmartReversi</string>
+    <string name="help_url">http://www.kaoshijuan.net/game/smartreversi/index_zh_TW.html</string>
+ 	<string name="black_name">黑方</string>
+ 	<string name="white_name">白方</string>
+ 	<string name="your_turn">輪到您下</string>
+ 	<string name="computer_turn">安卓正在思考</string>
+ 	<string name="computer_passed">安卓無棋可下，輪到您下了</string>
+ 	<string name="you_passed">您無棋可下，輪到安卓下了</string>
+ 	<string name="you_win">恭喜，您贏了</string>
+ 	<string name="computer_win">抱歉，您輸了</string>
+ 	<string name="draw">平局！</string>
+ 	<string name="buy_prom">暫未推出，盡請期待...</string>
+</resources>

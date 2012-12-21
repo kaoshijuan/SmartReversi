@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="net.kaoshijuan.SmartReversi"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".SmartReversi"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<!-- Track Market installs from AdMob ads -->		
+		<receiver android:name="com.admob.android.ads.analytics.InstallReceiver" android:exported="true">
+			<intent-filter>
+				<action android:name="com.android.vending.INSTALL_REFERRER" />
+			</intent-filter>
+		</receiver>
+		
+		<!-- The application's publisher ID assigned by AdMob -->
+	    <meta-data android:value="a14d0b126100e27" android:name="ADMOB_PUBLISHER_ID" />
+	    <!-- use a separate publisher id here to aid in tracking intersitial statistics -->
+	    <meta-data android:value="a14d0b126100e27" android:name="ADMOB_INTERSTITIAL_PUBLISHER_ID" /> 
+ 
+		<!-- Mobclix Required Parameters -->
+		<meta-data android:name="com.mobclix.APPLICATION_ID" android:value="CE14CA0B-9CE9-4B6B-A11A-1BAFDCE5C7D2"/>
+		<activity android:name="com.mobclix.android.sdk.MobclixBrowserActivity"/>	          
+    </application>
+
+
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<!-- Mobclix Required Permissions -->
+	<uses-permission android:name="android.permission.GET_TASKS"></uses-permission>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+
+</manifest> 

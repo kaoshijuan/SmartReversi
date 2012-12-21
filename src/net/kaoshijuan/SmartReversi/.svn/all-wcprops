@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/src/net/kaoshijuan/SmartReversi
+END
+ReversiLogicSingle.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/19/trunk/src/net/kaoshijuan/SmartReversi/ReversiLogicSingle.java
+END
+Zebra.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2/trunk/src/net/kaoshijuan/SmartReversi/Zebra.java
+END
+SmartReversi.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/19/trunk/src/net/kaoshijuan/SmartReversi/SmartReversi.java
+END
+DisplayAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/19/trunk/src/net/kaoshijuan/SmartReversi/DisplayAdapter.java
+END
+DisplayAdapterInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/11/trunk/src/net/kaoshijuan/SmartReversi/DisplayAdapterInterface.java
+END
+ReversiLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/11/trunk/src/net/kaoshijuan/SmartReversi/ReversiLogic.java
+END

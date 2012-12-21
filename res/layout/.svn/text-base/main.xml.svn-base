@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+
+		    <com.mobclix.android.sdk.MobclixMMABannerXLAdView 
+		        android:id="@+id/advertising_banner_view"
+		        android:layout_height="50dp"
+		        android:layout_width="320dp"
+		        android:layout_gravity="top"/>
+		    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    	android:orientation="horizontal"
+		    	android:layout_width="320dp"
+		    	android:layout_height="50dp">
+				<Button
+					android:id="@+id/new_game"
+					android:layout_height="fill_parent"
+					android:layout_width="110dp"
+					android:text="@string/button_new_game"
+					android:layout_gravity="left"/>
+				<Button
+					android:id="@+id/buy"
+					android:layout_height="fill_parent"
+					android:layout_width="0dp"
+					android:text="@string/button_buy"/>
+				<Button
+					android:id="@+id/help"
+					android:layout_height="fill_parent"
+					android:layout_width="110dp"
+					android:text="@string/button_help"/>					
+				<Button
+					android:id="@+id/exit"
+					android:layout_height="fill_parent"
+					android:layout_width="100dp"
+					android:text="@string/button_exit"/>					 
+		    </LinearLayout>
+			<org.anddev.andengine.opengl.view.RenderSurfaceView 
+				android:id="@+id/SmartReversi_rendersurfaceview"
+				android:layout_width="320dp" 
+				android:layout_height="600dp"
+				android:layout_gravity="center"/>
+</LinearLayout>
